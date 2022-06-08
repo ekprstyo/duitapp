@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+
+body {
+  font-family: 'Kanit', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  color: #f88f33;
+  display: flex;
+  background-color: #cee5d0;  
+}
+
+header svg {
+  margin: 0px 10px 0px 40px;
+  width: 70px;
+}
+
+header h1 {
+  margin: 0px 400px 0px 0px;
+  font-size: 60px;
+}
+
+nav {
+  margin: auto;
+  padding-top: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f88f33;
+  margin-right: 45px;
+  font-size: large;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  display: block;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-style: inset;
+  border-width: 0.1px;
+  color: #fcdbbe;
+}
+
+main {
+  background: url("img/confetti.svg") repeat;
+  background-size: 1200px;
+}
+
+.container-beranda {
+  display: flex;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.container-beranda div {
+  width: 50%;
+  margin: auto;
+}
+
+section > h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.container-beranda div h1, p {
+  text-align: center;
+}
+
+#beranda span {
+  font-weight: lighter;
+}
+
+.warna3 {
+    background-color: #fed2aa;
+}
+
+main {
+  color: #f88f33;
+}
+
+.container-layanan {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 1000px;
+  text-align: center;
+  margin: auto;
+}
+
+#layanan h2 {
+  color:rosybrown;
+}
+
+#layanan svg {
+  width: 75px;
+}
+
+.layanan-item {
+  padding-top: 20%;
+}
+
+#fitur {
+  height: 700px;
+}
+
+.container-fitur {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+#fitur h2 {
+  color: #00c8e2;
+}
+
+.fitur-item {
+  margin-top: 85px;
+  width: 30%;
+}
+
+#fitur svg {
+  width: 75px;
+  color: #00c8e2;
+}
+
+#download {
+  text-align: center;
+  height: 550px;
+}
+
+#download img {
+  margin-top: 120px;
+  width: 250px;
+}
+
+aside {
+  background-color: #fed2aa;
+  color: white;
+  display: flex;
+  height: 300px;
+}
+
+.aside-item {
+  margin: auto 30px;
+}
+
+aside div .fotoprofil {
+  width: 110px;
+  border-radius: 50%;
+  margin-left: 200px;
+}
+
+aside div .sosmed {
+  width: 35px;
+  margin-left: 30px;
+}
+
+footer {
+  height: 100px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  background-color: #ffbf86;
+  display: flex;
+  justify-content: center;
+}
+
+footer div {
+  margin: auto;
+}
+
+footer div p {
+  margin: 5px;
+}
+
+footer span {
+  font-weight: bolder;
+}
+
+footer a {
+  color: rgb(255, 243, 220);
+}
